@@ -1,0 +1,633 @@
+    1  systemctl status firewalld
+    2  systemctl status firewall
+    3  iptables-save
+    4  service firewalld stop
+    5  service firewalld start
+    6  enable firewalld
+    7  yum install firewalld
+    8  systemctl enable firewalld
+    9  systemctl start firewalld
+   10  systemctl status firewalld
+   11  cd
+   12  firewall-cmd --zone=public --add-port=8080/tcp --permanent
+   13  firewall-cmd --zone=public --add-service=http --permanent
+   14  firewall-cmd --reload
+   15  cd /var/lib/jenkins/
+   16  ll
+   17  cd
+   18  ll
+   19  cd
+   20  ls
+   21  ll
+   22  yum install jenkins
+   23  sudo yum install jenkins
+   24  yum install java
+   25  service jenkins start
+   26  chkconfig jenkins on
+   27  firewall-cmd --list-all
+   28  java -vrsion
+   29  java -virsion
+   30  java -version
+   31  service jenkins start
+   32  cd
+   33  jenkinks -v
+   34  jenkins -v
+   35  jenkins -version
+   36  cd /var/
+   37  ls
+   38  cd yp/
+   39  ls
+   40  cd ..
+   41  cd
+   42  ll
+   43  cat anaconda-ks.cfg 
+   44  ll
+   45  ifconfig
+   46  ifconfig -a
+   47  ifconfig -A
+   48  wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war 
+   49  ll
+   50  yum install tomcat
+   51  systemctl status tomcat
+   52  systemctl start tomcat
+   53  systemctl status tomcat
+   54  history
+   55  service jenkins status
+   56  service jenkins stop
+   57  service jenkins status
+   58  systemctl restart tomcat
+   59  systemctl status tomcat
+   60  yum update
+   61  yum install jenkins
+   62  yum install wget
+   63  wget https://pkg.jenkins.io/redhat-stable/jenkins-2.73.1-1.1.noarch.rpm
+   64  ll
+   65  rpm -ivh jenkins-2.73.1-1.1.noarch.rpm 
+   66  show jenkins
+   67  yum install jenkins
+   68  yum install jenkins*
+   69  cd /etc/
+   70  ll
+   71  wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins.io/redhat-stable/jenkins.repo
+   72  rpm --import http://pkg.jenkins.io/redhat-stable/jenkins.io.key
+   73  yum install jenkins java-1.7.0-openjdk .y
+   74  systemctl start jenkins
+   75  systemctl enable jenkins
+   76  firewall-cmd --zone=public --add-port=8080/tcp --permanent
+   77  pwd
+   78  cd
+   79  firewall-cmd --zone=public --add-port=8080/tcp --permanent
+   80  ifconfig
+   81  cd /var/log/jenkins/
+   82  ll
+   83  systemctl stop jenkins
+   84  systemctl start tomcat
+   85  cd /opt/
+   86  ls
+   87  ls
+   88  cd 
+   89  cd /etc/tomcat/
+   90  ls
+   91  vi web.xml 
+   92  cd
+   93  systemctl stop tomcat
+   94  systemctl start jenkinks
+   95  systemctl start jenkins
+   96  systemctl status jenkins
+   97  ls -lrt
+   98  systemctl status firewalld
+   99  service firewalld stop
+  100  service firewalld start
+  101  iptables-save
+  102  enable firewalld
+  103  systemctl enable firewalld
+  104  yum install httpd php php-mysql -y
+  105  yum update -y
+  106  chkconfig httpd on
+  107  service httpd start
+  108  echo "<?php phpinfo(); ?>" > /var/www/html/index.php
+  109  cd
+  110  cd /etc/tomcat/
+  111  ls
+  112  cd conf.d/
+  113  ls
+  114  cd ..
+  115  vi server.xml 
+  116  cd
+  117  yum install ansible
+  118  yum install ansible*
+  119  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  120  yum -y install ansible
+  121  ansible --version
+  122  wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  123  ll
+  124  rpm -Uvh epel-release-latest-7.noarch.rpm 
+  125  subscription-manager register --auto-attach
+  126  yum install ansible
+  127  yum install epel-release
+  128  yum install ansible
+  129  ll
+  130  wget https://releases.ansible.com/ansible/ansible-latest.tar.gz
+  131  ll
+  132  tar -xvf ansible-latest.tar.gz 
+  133  ll
+  134  cd ansible-2.4.0.0/
+  135  ls
+  136  cat README.md 
+  137  cd ..
+  138  ls
+  139  cd ansible-2.4.0.0/
+  140  ls
+  141  python setup.py 
+  142  yum install python
+  143  cat setup.py 
+  144  ls
+  145  play-ansible setup.py 
+  146  ansible-play setup.py 
+  147  cd test/
+  148  ls
+  149  cd compile/
+  150  ls
+  151  python compile.py 
+  152  cd
+  153  ansible --v
+  154  ansible version
+  155  cd
+  156  sudo yum install epel-release
+  157  sudo yum install ansible
+  158  sudo vi /etc/ansible/hosts
+  159  yum install epel-release
+  160  sudo yum repolist
+  161  sudo yum install ansible
+  162  wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-5.noarch.rpm
+  163  sudo rpm .ivh epel-release-latest-5.noarch.rpm
+  164  sudo yum repolist
+  165  sudo yum install ansible
+  166  yum clean expire-cache
+  167  yum createrepo
+  168  yum search epel
+  169  yum install epel-release
+  170  /etc/yum.repos.d/epel.repo
+  171  sudo cat /etc/yum.repos.d/epel.repo
+  172  service yum restart
+  173  yum search ansible
+  174  yum install ansible
+  175  cat /etc/redhat-release
+  176  yum update
+  177  yum install ansible
+  178  yum install epel-release -y
+  179  yum install ansible -y
+  180  ls
+  181  ll
+  182  sudo yum install .y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  183  wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  184  ll
+  185  ls -lrt
+  186  rpm -ivh epel-release-latest-7.noarch.rpm
+  187  rpm -ivh epel-release-latest-7.noarch.rpm.1 
+  188  sudo yum install .y https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
+  189  sudo yum install .y epel-release
+  190  sudo yum-config-manager --enable epel
+  191  sudo yum repolist
+  192  yum-config-manager
+  193  sudo yum-config-manager --enable epel
+  194  yum install ansible
+  195  yum repolist all
+  196  yum-config-manager --enable rhui-REGION-rhel-server-optional
+  197  http://download-i2.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+  198  rpm -Uvh http://download-i2.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+  199  yum update
+  200  wget -r --no-parent -A 'epel-release-*.rpm' http://dl.fedoraproject.org/pub/epel/7/x86_64/e/
+  201  rpm -Uvh dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-*.rpm
+  202  epel.repo
+  203  epel-testing.repo
+  204  ls -l /etc/yum.repos.d/
+  205  wget http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+  206  yum install java*
+  207  ps -ef | grep -i yum
+  208  kill 2032
+  209  kill -9 2032
+  210  yum install java*
+  211  cat /var/lib/jenkins/secrets/initialAdminPassword
+  212  ll
+  213  curl -L -o http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+  214  curl -L -O http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+  215  systemctl status tomcat
+  216  systemctl start tomcat
+  217  systemctl status tomcat
+  218  wget http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+  219  yum install epel-release
+  220  yum install ansible
+  221  yum install epel-release*
+  222  yum -y install epel-release
+  223  yum repolist
+  224  yum install epel-release
+  225  wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  226  ll
+  227  ls -lrt
+  228  yum install epel-release-7-5.noarch.rpm
+  229  sudo yum install epel-release-latest-7.noarch.rpm
+  230  sudo yum --disablerepo="*" --enablerepo="epel" list available
+  231  ll
+  232  rm ep*
+  233  ll
+  234  sudo yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  235  ll
+  236  ls
+  237  wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  238  ll
+  239  rpm -Uvh epel-release-latest-7.noarch.rpm 
+  240  yum install -y epel-release
+  241  vi /etc/yum.repos.d/epel.repo 
+  242  :
+  243  :
+  244  cls
+  245  clear
+  246  yum-config-manager
+  247  yum-config-manager --enable epel
+  248  sudo yum repolist
+  249   sudo yum .-enablerepo=epel install zabbix
+  250  sudo yum -enablerepo=epel install zabbix
+  251  sudo yum --enablerepo=epel install zabbix
+  252  ls -lrt
+  253  mkdir bkp 
+  254  mv *.rpm bkp/
+  255  ls
+  256  yum install ansible
+  257  rpm -Uvh http://download-i2.fedoraproject.org/pub/epel/beta/7/x86_64/epel-release-7-0.2.noarch.rpm
+  258  wget http://download-i2.fedoraproject.org/pub/epel/beta/7/x86_64/epel-release-7-0.2.noarch.rpm
+  259  yum -y install yum-utils
+  260  yum-config-manager --enable rhui-REGION-rhel-server-extras rhui-REGION-rhel-server-optional
+  261  yum install ansible
+  262  ansible
+  263  ansible --version
+  264  systemctl stop tomcat
+  265  systemctl start jenkins
+  266  systemctl status jenkins
+  267  netstat -ntlp | grep :8080
+  268  netstat -ntup | grep :8080
+  269  netstat -ntup | grep -i 8080
+  270  java -v
+  271  java -version
+  272  service jenkins restart
+  273  history
+  274  history | grep jenkin
+  275  yum upgrade java
+  276  yum update java
+  277  yum list all
+  278  service jenkins restart
+  279  tail -f /var/log/jenkins/jenkins.log 
+  280  ls
+  281  where jenkins
+  282  whereis jenkins
+  283  cd /usr/lib/jenkins/
+  284  ls
+  285  cd ..
+  286  ls
+  287  cd ..
+  288  ls
+  289  cd src/
+  290  ls
+  291  cd ..
+  292  ls
+  293  cd /var/
+  294  ls
+  295  cd www/
+  296  ls
+  297  cd html/
+  298  ls
+  299  cd ..
+  300  cd
+  301  grep DevDemo
+  302  grep DevDemo .
+  303  grep DevDemo /
+  304  find . -name DevDemo
+  305  find /etc DevDemo
+  306  find / -name "config.xml" | grep "jenkins"
+  307  cd /var/lib/jenkins/
+  308  ls
+  309  cd jobs/
+  310  ls
+  311  cd DevDemo/
+  312  ls
+  313  vi config.xml 
+  314  vi RHEL_HealthCheck.sh
+  315  pwd
+  316  sh RHEL_HealthCheck.sh
+  317  vi RHEL_HealthCheck.sh 
+  318  sh RHEL_HealthCheck.sh
+  319  ll
+  320  cat op.txt 
+  321  pwd
+  322  ls
+  323  cd builds/
+  324  ls
+  325  cd 1/
+  326  ls
+  327  cat log 
+  328  cat changelog.xml 
+  329  cat build.xml 
+  330  ls -lrt
+  331  cd ..
+  332  pwd
+  333  cd
+  334  cd /etc/ansible/
+  335  ls
+  336  vi hosts 
+  337  hostname
+  338  vi hosts 
+  339  ls
+  340  vi first_playbook.yml
+  341  ansible-playbook first_playbook.yml 
+  342  vi first_playbook.yml
+  343  ansible-playbook first_playbook.yml 
+  344  cd /tmp/
+  345  ls
+  346  cd -
+  347  ls
+  348  cd
+  349  ansible -m setup localhost
+  350  ansible -m setup localhost > ansible-setup.txt
+  351  vi ansible-setup.txt 
+  352  ls -lrt
+  353  rm epel-release-latest-7.noarch.rpm.1
+  354  ll
+  355  ansible localhost -m setup -a "filter=ansible_local"
+  356  ll
+  357  add user acc_demo
+  358  create user acc_demo
+  359  useradd acc_demo
+  360  passwd acc_demo
+  361  exit
+  362  cd /etc/ansible/
+  363  ls
+  364  ansible-playbook first_playbook.yml 
+  365  ll
+  366  chown jenkins first_playbook.yml
+  367  ll
+  368  chown jenkins jenkins first_playbook.yml
+  369  ll
+  370  ls -lrt
+  371  ls -l
+  372  pwd
+  373  change group first_playbook.yml
+  374  chown jenkins:jenkins first_playbook.yml
+  375  ll
+  376  chown jenkins:jenkins first_playbook.*
+  377  ll
+  378  chown jenkins:jenkins *
+  379  ll
+  380  vi first_playbook.yml
+  381  ll /tmp/
+  382  ll /
+  383  chown jenkins:jenkins tmp
+  384  chown jenkins:jenkins /tmp
+  385  ll
+  386  ll /
+  387  cd /tmp/
+  388  ll
+  389  chown jenkins:jenkins yallo 
+  390  cd
+  391  cd /usr/lib
+  392  ls
+  393  cd jenkins/
+  394  ls
+  395  cd ..
+  396  ll
+  397  cd ..
+  398  ll
+  399  cd lib
+  400  ls
+  401  cd ..
+  402  cd local/
+  403  ls
+  404  cd lib
+  405  ls
+  406  cd ..
+  407  cd sbin/
+  408  ls
+  409  history
+  410  find / -name "config.xml" | grep "jenkins"
+  411  cd /var/lib/jenkins/jobs/
+  412  ll
+  413  cd DevDemo/
+  414  ls
+  415  ll
+  416  chown jenkins:jenkins RHEL_HealthCheck.sh 
+  417  pwd
+  418  sh /var/lib/jenkins/jobs/DevDemo/RHEL_HealthCheck.sh
+  419  ll
+  420  ls -lrt
+  421  rm op.txt 
+  422  ll
+  423  find / -name "git" | grep "jenkins"
+  424  find / -name "git" | grep "git"
+  425  cd /var/lib/jenkins/plugins/git
+  426  ll
+  427  cd WEB-INF/
+  428  ll
+  429  cd li
+  430  cd lib/
+  431  ll
+  432  cd ..
+  433  ls
+  434  ll
+  435  pwd
+  436  ls-remote -h
+  437  remote -h
+  438  ls remote -h
+  439  cd
+  440  cd /usr/bin/
+  441  ls
+  442  ls g*
+  443  cd ..
+  444  ls
+  445  cd sbin/
+  446  ls
+  447  ls g*
+  448  cd
+  449  cd /bin/
+  450  ls
+  451  ls g*
+  452  cd
+  453  find -name "git"
+  454  find -name "git" | "git"
+  455  find -name "git" | grep "git"
+  456  cd /etc/
+  457  ls
+  458  ls -lrt
+  459  cd
+  460  find / -name "git" | grep "jenkins"
+  461  cd /var/lib/jenkins/plugins/git/META-INF/maven/org.jenkins-ci.plugins/git
+  462  ll
+  463  pwd
+  464  which git
+  465  who
+  466  pwd
+  467  shutdown
+  468  ansible "localhost" -m user -a "name=sksingh state=present"
+  469  id sunil
+  470  id sksingh
+  471  pwd
+  472  ansible "localhost" -m file -a "path=/root/sunil state=directory"
+  473  ansible "localhost" -m file -a "path=/root/sunil/ansible.txt state=touch"
+  474  ll
+  475  cd sunil/
+  476  ls
+  477  pwd
+  478  cd
+  479  ansible --version
+  480  java -version
+  481  ls
+  482  pwd
+  483  cd /etc/ansible/
+  484  ll
+  485  cd /etc/ansible/
+  486  mkdir playbook
+  487  cd playbook/
+  488  ls -lrt
+  489  vi demo.yml
+  490  ll
+  491  cd ..
+  492  cat first_playbook.yml 
+  493  cd playbook/
+  494  vi demo.yml 
+  495  ansible-playbook --syntax-check demo.yml 
+  496  vi demo.yml 
+  497  cat ../first_playbook.yml 
+  498  vi demo.yml 
+  499  ansible-playbook --syntax-check demo.yml 
+  500  vi demo.yml 
+  501  ansible-playbook --syntax-check demo.yml 
+  502  vi demo.yml 
+  503  ansible-playbook --check demo.yml 
+  504  vi demo.yml 
+  505  ansible-playbook --check demo.yml 
+  506  vi demo.yml 
+  507  ansible-playbook --check demo.yml 
+  508  vi demo.yml 
+  509  ansible-playbook --check demo.yml 
+  510  ansible-playbook demo.yml 
+  511  cat demo.
+  512  cat demo.yml 
+  513  deluser skumar
+  514  userdel skumar
+  515  ansible-playbook demo.yml 
+  516  pwd
+  517  cat /etc/ansible/hosts 
+  518  cat demo.yml 
+  519  cd /etc/ansible/
+  520  ls -lrt
+  521  yum update git
+  522  git -version
+  523  git --version
+  524  yum list | grep git
+  525  yum install git
+  526  git -version
+  527  yum install git*
+  528  git -version
+  529  git --version
+  530  python -version
+  531  python -v
+  532  ls -lrt
+  533  python --version
+  534  update python
+  535  git --version
+  536  which git
+  537  cd /bin/
+  538  ls
+  539  cat git
+  540  PuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY
+  541  git config --global -l
+  542  git config --global user.name "Sunil Kumar"
+  543  git config --global -l
+  544  git config --global user.email "sunil.singh6094@gmail.com"
+  545  git config --global -l
+  546  whereis git
+  547  mkdir sunil-repositories
+  548  cd sunil-repositories/
+  549  pwd
+  550  mkdir repository-1
+  551  cd repository-1/
+  552  pwd
+  553  git init
+  554  ls -lrt
+  555  pwd
+  556  ls -la
+  557  git status
+  558  touch file.txt
+  559  git status
+  560  vi file.txt 
+  561  git add file.txt
+  562  git status
+  563  cd sunil-repositories/
+  564  ls
+  565  cd repository-1/
+  566  ls
+  567  git commit -m "this is my first commited file"
+  568  git status
+  569  ls
+  570  git --help
+  571  git push
+  572  git push file.txt
+  573  git logs
+  574  git log
+  575  git remote add origin https://github.com/sksinghiitk/repository-1.git
+  576  git push -u origin master
+  577  ls
+  578  vi jeevan.txt
+  579  git add jeevan.txt
+  580  commit jeevan.txt -m "second file"
+  581  git commit jeevan.txt -m "second file"
+  582  git push -u origin master
+  583  history >today.log
+  584  cat today.log 
+  585  ls -lrt
+  586  cat today.log 
+  587  git --version
+  588  which git
+  589  cd /etc/ansible/
+  590  ls
+  591  init git
+  592  git init
+  593  ll
+  594  ls -al
+  595  cd playbook/
+  596  ls
+  597  cp demo.yml ..
+  598  cd ..
+  599  ls
+  600  git add demo.yml
+  601  git commit demo.yml -m "my first ansible file on git"
+  602  git status
+  603  git remote add origin https://github.com/sksinghiitk/repository-1.git
+  604  git push -u origin master
+  605  cp demo.yml /root/sunil-repositories/repository-1/
+  606  cd 
+  607  cd sunil-repositories/
+  608  cd repository-1/
+  609  ls
+  610  cat today.log 
+  611  git add  demo.yml
+  612  git commit demo.yml -m "first ansible commit"
+  613  git status
+  614  git push -u origin master
+  615  cd /usr/lib/jenkins/
+  616  ls
+  617  cd ..
+  618  ls
+  619  cd
+  620  cd /var/
+  621  ls
+  622  cd lib/
+  623  ls
+  624  cd jenkins/
+  625  ls
+  626  cd secrets/
+  627  ls
+  628  cat master.key 
+  629  vi master.key 
+  630  cd ..
+  631  ls
+  632  vi config.xml 
+  633  history>today_command.txt
