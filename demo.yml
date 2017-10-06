@@ -1,0 +1,17 @@
+---
+- name : my first play
+  hosts: "localhost"
+
+  tasks:
+  - name: creating user
+    user: name=skumar uid=1101 state=present
+
+  - name: creating group
+    group: name=sunil state=present
+
+  - name: installing telnet
+    yum: name=telnet state=present
+...
+
+  
+   
